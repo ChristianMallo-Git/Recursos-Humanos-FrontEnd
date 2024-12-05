@@ -28,7 +28,6 @@ const getEmployee = async () => {
 }
 
 const onInputChange = (e) => {
-  //spread operator ... (expandir los atributos)
   setEmployee({...employee, [e.target.name]: e.target.value})
 }
 

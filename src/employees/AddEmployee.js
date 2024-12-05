@@ -16,7 +16,6 @@ const [employee, setEmployee]=useState({
 const{nameEmployee, departmentEmployee, salaryEmployee} = employee
 
 const onInputChange = (e) => {
-  //spread operator ... (expandir los atributos)
   setEmployee({...employee, [e.target.name]: e.target.value})
 }
 
